@@ -4,7 +4,7 @@
 
 ## ![LCO Mascout](https://learncodeonline.in/mascot.png)
 
-## ¶ live link :- [Crypto](https://assignment-3-justice.netlify.app/)
+## ¶ live link :- [Crypto](https://assignment-5-crypto.netlify.app/)
 
 ---
 
