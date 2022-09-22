@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+:root {
+    --header-height: 3rem;
+  
+    /*===== Colors =====*/
+    --first-color: #ba0cc5;
+    --first-color-second: #000;
+    --text-color: #fff;
+    --text-color-light:#c6c6c6;
+    --text-color-light-dark:#acabab;
+    --first-color-dark: #3d3061;
+    --first-color-lighten: #5d59b5;
+  
+    /*===== Font and typography =====*/
+    --body-font: "Montserrat", sans-serif;
+    --biggest-font-size: 3.3rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  
+    /*===== Font weight =====*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /*===== Margenes =====*/
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 6rem;
+  
+    /*===== z index =====*/
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+  
+
+.logo {
+    width: 80%;
+}
+
+.navbar{
+    padding: var(--mb-2) var(--mb-6);
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 1rem;
+    padding-left: var(--mb-3);
+}
+
+.line{
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+   
+}
+
+.button-small{
+    position: absolute;
+    right: var(--mb-6);
+    top: var(--mb-3);
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--first-color);
+    color: var(--text-color);
+}
+
+
+
+.icon {
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: -5px;
+    font-size: 1rem;
+    top: 7px;
+    left: 6px;
+}
+
+.icon:hover{
+    color: #acabab;
+}
+
+.hero{
+    background-image: url(./assets/bg.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-heading{
+    margin: 2rem;
+    margin-top: 10rem;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.hero-description{
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.button-large{
+    margin: 2rem;
+    height: 3.5rem;
+    width: 300px;
+  background-color: var(--first-color);
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
